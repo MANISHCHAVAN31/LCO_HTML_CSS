@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #1d1d1d;
+    font-family: sans-serif;
+}
+
+header {
+    height: 80vh;
+    background-image: linear-gradient(to right bottom,
+            rgba(221, 14, 97, 0.466),
+            rgba(110, 0, 235, 0.452)),
+        url("cycleman.jpeg");
+
+
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 82% 100%, 0 90%);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 15%;
+    padding-left: 15%;
+}

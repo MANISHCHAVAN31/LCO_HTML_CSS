@@ -1,0 +1,19 @@
+body {
+    background-color: crimson;
+    color: white;
+    font-family: sans-serif;
+}
+
+.bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form>* {
+    line-height: 10%;
+    font-size: 40px;
+    padding-top: 10px;
+}
